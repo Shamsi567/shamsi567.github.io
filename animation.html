@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            <!-- div{
+                width: 100px;
+                height: 100px;
+                background-color:chartreuse;
+                animation-name: anim;
+                animation-duration: 10s;
+            }
+            @keyframes anim{
+                from{background-color: chartreuse;}
+                to{background-color: crimson;}
+            } -->
+
+
+
+            div1{
+                width: 100px;
+                height: 100px;
+                background-color:chartreuse;
+                animation-name: anim1;
+                position: relative;
+                animation-duration: 4s;
+            
+            
+                animation-direction: alternate-reverse;
+            }
+            <!-- #div2{animation-timing-function: ease;}
+            #div3{animation-timing-function:ease-in;}
+            #div4{animation-timing-function:ease-in-out;}
+            #div5{animation-timing-function:ease-out;}
+            #div6{animation-timing-function:linear;} -->
+            @keyframes anim1{
+                0% {background-color: chartreuse; left:0px;top:0px}
+                25% {background-color: crimson; left: 200px; top:0px}
+                55% {background-color: rgb(241, 54, 8); left:300px; top:200px}
+                75% {background-color: black; left: 0px; top:150px}
+            } 
+            <!-- @keyframes anim1{
+                from {left: 0px; }
+                to{left:300px;}
+            } -->
+        </style>
+    </head>
+    <body>
+        <h1>CSS Animation</h1>
+    
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div>
+        <div id="div6"></div>
+    </body>
+</html>m
